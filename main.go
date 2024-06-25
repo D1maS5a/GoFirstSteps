@@ -6,8 +6,8 @@ func main() {
 	fmt.Println("Hello world!")
 	fmt.Println("Привет от Go!")
 
-	var a string
-	fmt.Scan(&a)
+	// var a string
+	// fmt.Scan(&a)
 
 	var age uint8 = 23
 	fmt.Println(age)
@@ -34,4 +34,13 @@ func main() {
 	var tempH int8 = 2
 	var tempG float64 = float64(tempH)
 	fmt.Println(tempG)
+
+	num := 3
+	if num > 0 {
+		fmt.Println("Number " + fmt.Sprint(num) + " is greater then 0")
+	} else if num < 0 {
+		fmt.Println("Number " + fmt.Sprint(num) + " is less then 0")
+	} else {
+		fmt.Println("Number " + fmt.Sprint(num) + " equals 3")
+	}
 }
