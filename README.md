@@ -16,3 +16,5 @@ https://go.dev/tour/basics/1
 https://blog.iddqd.uk/interview-section-golang/
 
 https://habr.com/ru/articles/654569/
+
+https://stepik.org/course/54403/promo?ysclid=lxy8v4dfyl337167560
