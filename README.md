@@ -10,6 +10,7 @@ https://www.youtube.com/playlist?list=PLFAQFisfyqlXt2kAMc1L2NC9NgHPSQgvQ -- inte
 https://habr.com/ru/articles/225907/    -- Хорошая статья о ООП в GO
 
 https://habr.com/ru/companies/oleg-bunin/articles/521582/ -- Хороший опросник по Go
+https://habr.com/ru/articles/758662/                      -- Ответы на опросник XD
 
 Стоит внимания : http://golang-book.ru/
 
