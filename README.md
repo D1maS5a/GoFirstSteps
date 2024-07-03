@@ -7,6 +7,8 @@ https://www.youtube.com/playlist?list=PL6zFwNQdlbY6idAzBUnpx2dE3J1kRYVzx
 
 https://www.youtube.com/playlist?list=PLFAQFisfyqlXt2kAMc1L2NC9NgHPSQgvQ -- intermediate lessons
 
+https://www.youtube.com/playlist?list=PLP19RjSHH4aE9pB77yT1PbXzftGsXFiGl -- !
+
 https://www.youtube.com/playlist?list=PLysMDSbb9HcxpAb8lhnMaRpX890wSLz66
 
 https://habr.com/ru/articles/225907/    -- Хорошая статья о ООП в GO
