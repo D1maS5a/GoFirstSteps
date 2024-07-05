@@ -102,6 +102,9 @@ func main() {
 	fmt.Println(North)
 	north := North
 	fmt.Println(north)
+
+	surrounded := surround("this message", '(', ')')
+	fmt.Println(surrounded)
 }
 
 func getUserRank(rank string) string {
@@ -134,4 +137,8 @@ func (d Direction) Dir() string {
 
 func (d Direction) String() string {
 	return []string{"North", "East", "South", "West"}[d]
+}
+
+func surround(msg string, left, right rune) string {
+	return fmt.Sprintf("%c%v%c", left, msg, right)
 }
