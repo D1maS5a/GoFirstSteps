@@ -34,6 +34,11 @@ func main() {
 	// cond ? x : y
 	fmt.Println(MaxTer(1, 2))
 	fmt.Println(MaxTer(8, 4))
+
+	//Приближение (без ~ работать не будет так как не "чистый" int32)
+	type MyInt int32
+	nums := []MyInt{MyInt(1), MyInt(2), MyInt(3)}
+	fmt.Println(nums)
 }
 
 func MaxTer(x, y int) int {
@@ -96,4 +101,17 @@ func Max[T constraints.Ordered](x, y T) T {
 	// 	return x
 	// }
 	return y
+}
+
+// Приближение
+type Integer32 interface {
+	~int32 | ~uint32
+}
+
+func SumNumbers[T Integer32](arr []T) T {
+	var sum T
+	for i := 0; i < len(arr); i++ {
+		sum += arr[i]
+	}
+	return sum
 }
