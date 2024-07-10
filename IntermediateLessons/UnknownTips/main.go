@@ -6,7 +6,7 @@ import (
 
 func main() {
 	x := 2
-	switch x {
+	switch x { // switch i := isTest(a); i{	.. }
 	case 1, 2, 3:
 		fmt.Println(1, 2, 3)
 		fallthrough
@@ -16,6 +16,21 @@ func main() {
 		fmt.Println(4, 5, 6)
 	default:
 		fmt.Println("Null)")
+	}
+
+	switch i := getUserRank("User"); i {
+	case "User":
+		fmt.Println(i)
+	case "Admin":
+		fmt.Println("Admin")
+	}
+
+	iNew := "Admin"
+	switch {
+	case iNew == "User":
+		fmt.Println(iNew)
+	case iNew == "Admin":
+		fmt.Println("Admin")
 	}
 
 	//while
@@ -105,6 +120,19 @@ func main() {
 
 	surrounded := surround("this message", '(', ')')
 	fmt.Println(surrounded)
+
+	a, b, c := TwoParReturn()
+	fmt.Println(a, b, c)
+
+	sum := 0
+	for sum < 1000 { // Типа while
+		sum += 10
+	}
+	fmt.Println(sum)
+	// Вечный цикл
+	// for{
+
+	// }
 }
 
 func getUserRank(rank string) string {
@@ -141,4 +169,13 @@ func (d Direction) String() string {
 
 func surround(msg string, left, right rune) string {
 	return fmt.Sprintf("%c%v%c", left, msg, right)
+}
+
+// Именованные выходные переменные делают инициализацию
+func TwoParReturn() (a, c, b string) {
+	a = "Hello"
+	b = "World!"
+	c = "all"
+	// return a, b, c
+	return // можно так изза именных входных но не стоит :)
 }
