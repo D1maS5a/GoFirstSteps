@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// F12 позволяет проваливаться в функцию/метод
+
 func main() {
 	x := 2
 	switch x { // switch i := isTest(a); i{	.. }
