@@ -1,0 +1,15 @@
+{
+    "name": "Dima",
+    "age": 80,
+    "is_blocked": true,
+    "books": [
+        {
+            "name": "BN",
+            "year": 1990
+        },
+        {
+            "name": "BN",
+            "year": 2001
+        }
+    ]
+}
