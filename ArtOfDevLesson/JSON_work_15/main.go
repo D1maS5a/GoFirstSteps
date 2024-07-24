@@ -18,6 +18,17 @@ type Book struct {
 }
 
 func main() {
+	byt := []byte(`{"name":"Dima","age":80,"is_blocked":true,"books":[{"name":"BN","year":1990},{"name":"BN1","year":2001}]}`)
+	// var dat map[string]interface{}
+	var dat User
+	if err := json.Unmarshal(byt, &dat); err != nil {
+		panic(err)
+	}
+	// fmt.Println(dat["books"].([]interface{})[1].(map[string]interface{})["name"]) // dat["name"]
+	fmt.Println(dat.Books[1].Name)
+}
+
+func serialize() {
 	var books []Book
 	book1 := Book{
 		Name: "BN",
@@ -39,7 +50,4 @@ func main() {
 	}
 	boolVar, _ := json.Marshal(sv) // "something"
 	fmt.Println(string(boolVar))
-	// json.Unmarshal()
 }
-
-// 15 min
