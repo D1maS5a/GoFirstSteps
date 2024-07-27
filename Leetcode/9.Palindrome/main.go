@@ -41,7 +41,8 @@ func isPalindromeGPT(x int) bool {
 	// Преобразуем число в строку
 	s := strconv.Itoa(x)
 	// Используем двойной цикл для сравнения символов с начала и с конца строки
-	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+	runes := []rune(s)
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
 		if s[i] != s[j] {
 			return false
 		}
