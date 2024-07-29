@@ -10,11 +10,12 @@ import (
 	"github.com/julienschmidt/httprouter"
 )
 
-// func IndexHandler(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
-// 	name := params.ByName("name")
-// 	w.Write([]byte(fmt.Sprintf("Hello %s", name)))
-// }
-
+//	func IndexHandler(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
+//		name := params.ByName("name")
+//		w.Write([]byte(fmt.Sprintf("Hello %s", name)))
+//	}
+//
+// 14:30
 func main() {
 	logger := logging.GetLogger()
 	// log.Println("create router")
