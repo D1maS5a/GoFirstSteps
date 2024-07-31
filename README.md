@@ -32,3 +32,9 @@ https://habr.com/ru/articles/670974/
 https://stepik.org/course/54403/promo?ysclid=lxy8v4dfyl337167560
 
 https://ru.stackoverflow.com/questions/445768/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-vs-%D0%B0%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 -- асинхронность и многопоточность 
+
+https://habr.com/ru/articles/782608/ -- Сложность алгоритмов. Разбор Big O
+
+https://easyoffer.ru/rating/golang_developer -- Вопросы к собесу
+
+https://habr.com/ru/articles/254773/ -- Нормализация отношений. Шесть нормальных форм БД
